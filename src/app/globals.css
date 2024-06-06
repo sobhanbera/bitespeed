@@ -1,4 +1,4 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -30,4 +30,57 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+} */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    transition: all 0.35s;
+    outline: none;
+    border: none;
+    font-family: Verdana, sans-serif;
+}
+
+body {
+    padding: 12px;
+}
+
+input,
+select,
+textarea {
+    padding: 6px 12px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+button {
+    cursor: pointer;
+    padding: 6px 12px;
+    margin: 5px;
+    border: 1px solid lightskyblue;
+    border-radius: 6px;
+    font-size: 14px;
+    background-color: lightskyblue;
+}
+
+button.delete {
+    border: 1px solid lightcoral;
+    background-color: lightcoral;
+}
+
+p.comparison {
+    font-size: 14px;
+    padding: 6px 12px;
+    background-color: lightpink;
+    display: inline-block;
+    border-radius: 16px;
+}
+
+.segment {
+    display: flex;
+    align-items: center;
 }
